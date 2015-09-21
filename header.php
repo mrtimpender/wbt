@@ -1,11 +1,6 @@
-<?php
-	$userName = "Tim Pender";
-	$pageID = strtolower($pageTitle);
-?>
-
-
 <!DOCTYPE html> 
 <html lang="en">
+
 <head>
   	
   	<title>WBT | <?php echo $pageTitle; ?></title>
@@ -18,9 +13,9 @@
 <body id="<?php echo $pageID; ?>">
 
 <header> 
+
 	<div class="row">
-		<a href="index.php"><img class="logo" src="img\logo.png"/>
-		</a>
+		<a href="index.php"><img class="logo" src="img\logo.png"/></a>
 
 <?php include 'nav.php'; ?>
 
