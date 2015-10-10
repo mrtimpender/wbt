@@ -15,9 +15,11 @@
 <header> 
 
 	<div class="row">
-		<a href="index.php"><img class="logo" src="img\logo.png"/></a>
-
-<?php include 'nav.php'; ?>
+		<div class="column fifth">
+			<a href="index.php"><img class="header-logo" src="img\logo.png"/></a>
+		</div>
+		
+	<?php include 'nav.php'; ?>
 
 	</div>
 </header>

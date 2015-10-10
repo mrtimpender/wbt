@@ -16,7 +16,8 @@
 body{
 	padding:0;
 	margin:0;
-	font-family: Helvetica, Sans-serif;
+	
+	font-family: 'Raleway', Helvetica, Sans-serif;
 	background: $bgcolor;
 }
 
@@ -33,22 +34,15 @@ a{
 
 
 
-h1 {
 
-}
-
-h3 {
-
-}
 
 /* -- Header --*/
 
 header{
 	background: $headercolor;
 	padding:10px;
-	margin-bottom: 20px;
 
-	@include breakpoint ($tablet) {
+	@include breakpoint (tablet) {
 		text-align: center;
 	}
 	
@@ -61,16 +55,19 @@ header{
 	}
 }
 
-
-.logo {
+.header-logo {
 	float:left;
-	width:65px;
+	width:85px;
 
-	@include breakpoint ($tablet) {
+	@include breakpoint (tablet) {
 			float:none;
 			width:80px;
 	}
+	
 }
+
+
+
 
 
 header{
@@ -78,9 +75,11 @@ header{
 		float:right;
 		text-align: right;
 		margin-top: 21px;
-		@include breakpoint ($tablet) {
+
+		@include breakpoint (tablet) {
 			float:none;
-			text-align: center;}
+			text-align: right;
+		}
 
 		a{
 			margin-right:20px;
@@ -105,6 +104,28 @@ footer{
 	font-size:11px;
 	text-align:center;
 	width: 100%;
+}
+
+.footer-logo{
+	float:center;
+	width: 10%;
+
+	@include breakpoint (laptop) {
+		width: 15%;
+	}
+
+	@include breakpoint (tablet) {
+		width: 17.5%;
+	}
+
+@include breakpoint (phone) {
+		width: 25%;
+	}
+
+}
+
+.copyright{
+	color: $fontcolor;
 }
 
 /*-- Hero --*/

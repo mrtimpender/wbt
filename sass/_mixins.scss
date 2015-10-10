@@ -15,10 +15,10 @@
 // -------------- Breakpoints -------------- //
 // Set our breakpoint names
 $breakpoints: (
-    'phone':   ( max-width:  400px ),
-    'tablet':  ( max-width:  800px ),
-    'laptop': ( max-width:  1024px ),
-    'large':  ( min-width: 1921px )  // This is a query for a large screen
+    'phone':   ( max-width:  $phone ),
+    'tablet':  ( max-width:  $tablet ),
+    'laptop': ( max-width:  $laptop ),
+    'large':  ( min-width: $large )  // This is a query for a large screen
 );
 
 // Mixin

@@ -1,15 +1,28 @@
-$linkcolor: #344E41;
-$linkhover: #588157;
-$headercolor: #444444;
+// Colors
+
+$linkcolor: #7D84B8;
+$linkhover: lighten(#18268F, 20%);
+
+$fontcolor: #7D84B8;
+
+
 $bgcolor: #999999;
+$headercolor: #1E1E1E;
+$footercolor: #1E1E1E;
 
-$footercolor: darken($headercolor, 15%);
+// Hero Photo Color Suggest
+$grey: #B8B8B8; 
+$darkgrey: #919191;
+$white: #FFFFFF;
+$black: #1E1E1E;
 
-
-$breakpoint: 500px;
 
 
 // Responsive Screen Sizes
-$bigscreen: 1600px;
+$large: 1600px;
+$laptop: 1024px;
 $tablet: 800px;
 $phone: 480px;
+
+$breakpoint: 500px;
+
